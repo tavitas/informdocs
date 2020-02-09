@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/docs',
   favicon: 'img/favicon.ico',
   organizationName: 'tavitas', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
