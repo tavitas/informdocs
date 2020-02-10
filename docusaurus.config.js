@@ -2,10 +2,10 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://tavitas.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/informdocs/',
   favicon: 'img/favicon.ico',
   organizationName: 'tavitas', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'informdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
