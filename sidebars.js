@@ -8,15 +8,15 @@
 module.exports = {
   someSidebar: {
     Inform: [
-      'Inform/introduction',
-      'Inform/tools',
-      'Inform/processes',
+      'inform/introduction',
+      'inform/tools',
+      'inform/processes',
     ],
     'Data Portal': [
-      'Inform/dataportal'
+      'inform/dataportal'
     ],
     'Indicator Reporting Tool': [
-      'Inform/irt',
+      'inform/irt',
     ],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
     // Features: ['mdx'],

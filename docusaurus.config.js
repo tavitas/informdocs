@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/inform.png',
       },
       links: [
-        {to: 'docs/Inform/introduction', label: 'Docs', position: 'left'},
+        {to: 'docs/inform/introduction', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tavitas/informdocs',
@@ -31,7 +31,7 @@ module.exports = {
           items: [
             {
               label: 'Introduction',
-              to: 'docs/Inform/introduction',
+              to: 'docs/inform/introduction',
             },
             {
               label: 'Second Doc',
