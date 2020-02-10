@@ -13,10 +13,10 @@ module.exports = {
       'inform/processes',
     ],
     'Data Portal': [
-      'inform/dataportal'
+      'dataportal/intro'
     ],
     'Indicator Reporting Tool': [
-      'inform/irt',
+      'irt/intro',
     ],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
     // Features: ['mdx'],

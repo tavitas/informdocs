@@ -1,5 +1,5 @@
 ---
-id: irt
+id: intro
 title: Introduction
 sidebar_label: Introduction
 ---
