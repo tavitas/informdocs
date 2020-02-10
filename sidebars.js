@@ -13,7 +13,7 @@ module.exports = {
       'inform/processes',
     ],
     'Data Portal': [
-      'dataportal/intro'
+      'dataportal/quickstart',
     ],
     'Indicator Reporting Tool': [
       'irt/intro',
