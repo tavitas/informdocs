@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'SPREP Inform Docs',
+  tagline: 'Help Documentation on the Inform project data portals and the Indicator Reporting Tool',
   url: 'https://tavitas.github.io',
   baseUrl: '/informdocs/',
   favicon: 'img/favicon.ico',
@@ -8,16 +8,16 @@ module.exports = {
   projectName: 'informdocs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'InformDocs',
+      // logo: {
+      //   alt: 'My Site Logo',
+      //   src: 'img/logo.svg',
+      // },
       links: [
         {to: 'docs/doc1', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tavitas/informdocs',
           label: 'GitHub',
           position: 'right',
         },
@@ -43,12 +43,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'SPREP',
+              href: 'https://www.sprep.org',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Talanoa',
+              href: 'https://talanoa.sprep.org',
             },
           ],
         },
@@ -56,12 +56,12 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/groups/470542680454530/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/tavitas/informdocs',
             },
             {
               label: 'Twitter',
@@ -70,7 +70,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SPREP Inform Docs. Built with Docusaurus.`,
     },
   },
   presets: [

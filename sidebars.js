@@ -7,6 +7,9 @@
 
 module.exports = {
   someSidebar: {
+    Inform: [
+      'Inform/introduction'
+    ],
     Docusaurus: ['doc1', 'doc2', 'doc3'],
     Features: ['mdx'],
   },
