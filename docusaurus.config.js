@@ -25,51 +25,56 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Introduction',
-              to: 'docs/inform/introduction',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'SPREP',
-              href: 'https://www.sprep.org',
-            },
-            {
-              label: 'Talanoa',
-              href: 'https://talanoa.sprep.org',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/groups/470542680454530/',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/tavitas/informdocs',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-      ],
+      // logo2,
+      // logo: {
+      //   alt: 'Inform Logo',
+      //   src: 'img/inform/inform-logo.png'
+      // },
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Introduction',
+      //         to: 'docs/inform/introduction',
+      //       },
+      //       {
+      //         label: 'Second Doc',
+      //         to: 'docs/doc2',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'SPREP',
+      //         href: 'https://www.sprep.org',
+      //       },
+      //       {
+      //         label: 'Talanoa',
+      //         href: 'https://talanoa.sprep.org',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Social',
+      //     items: [
+      //       {
+      //         label: 'Facebook',
+      //         href: 'https://www.facebook.com/groups/470542680454530/',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/tavitas/informdocs',
+      //       },
+      //     ],
+      //   },
+      // ],
+      logo: {
+        alt: 'GEF Logo',
+        src: 'img/inform/sprep-logo.png'
+      },
       copyright: `Copyright © ${new Date().getFullYear()} SPREP Inform Docs. Built with Docusaurus.`,
     },
   },
