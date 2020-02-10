@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'SPREP Inform Docs',
-  tagline: 'Help Documentation on the Inform project data portals and the Indicator Reporting Tool',
+  title: 'Inform Docs',
+  tagline: 'Documentation for the SPREP Inform project',
   url: 'https://tavitas.github.io',
   baseUrl: '/informdocs/',
   favicon: 'img/favicon.ico',
@@ -14,7 +14,7 @@ module.exports = {
       //   src: 'img/logo.svg',
       // },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
+        {to: 'docs/Inform/introduction', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tavitas/informdocs',
@@ -30,8 +30,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Introduction',
+              to: 'docs/Inform/introduction',
             },
             {
               label: 'Second Doc',

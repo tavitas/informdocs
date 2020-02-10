@@ -8,7 +8,9 @@
 module.exports = {
   someSidebar: {
     Inform: [
-      'Inform/introduction'
+      'Inform/introduction',
+      'Inform/tools',
+      'Inform/processes',
     ],
     Docusaurus: ['doc1', 'doc2', 'doc3'],
     Features: ['mdx'],

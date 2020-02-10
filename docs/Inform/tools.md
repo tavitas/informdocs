@@ -1,33 +1,36 @@
 ---
-id: introduction
-title: Introduction
-sidebar_label: Introduction
+id: tools
+title: Tools
+sidebar_label: Tools
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform.png')} />
+## Data Portals
 
-## The Inform Project
+The Inform project has created a network of national and regional data repositories to store, manage and share environmental data, to monitor the state of the Pacific's environment.
 
-Knowledge and understanding are important for driving and bringing about informed decision making. The project, "Building National and Regional Capacity to Implement Multilateral Environmental Agreements by Strengthening Planning and the State of Environmental Assessment and Reporting in the Pacific", referred to as the Inform project, recognises the need for this data-driven decision making. The project will establish a Pacific island network of national and regional data repositories and reporting tools to support the monitoring, evaluation, and analysis of environmental information, which supports environmental planning, forecasting, and reporting requirements.
+| Portal                     |         Contact          | Email                              | URL                                     |
+| -------------------------- | :----------------------: | :--------------------------------- | --------------------------------------- |
+| Pacific Environment Portal |       Lagi Reupena       | lagir@sprep.org                    | <https://pacific-data.sprep.org>        |
+| Cook Islands               |     Elizabeth Munro      | elizabeth.munro@cookislands.gov.ck | <https://cookislands-data.sprep.org>    |
+| FSM                        |       Cindy Ehmes        | climate@mail.fm                    | <https://fsm-data.sprep.org>            |
+| Fiji                       |    Senimili Balecakau    | senimili.balecakau@govnet.gov.fj   | <https://fiji-data.sprep.org>           |
+| Kiribati                   | Nenenteiti Teariki-Ruatu | nenenteitit@environment.gov.ki     | <https://kiribati-data.sprep.org>       |
+| RMI                        |     Clarence Samuel      | clarencesam@gmail.com              | <https://rmi-data.sprep.org>            |
+| Nauru                      |        Bryan Star        | bryanstar007@gmail.com             | <https://nauru-data.sprep.org>          |
+| Niue                       |       Haden Talagi       | haden.talagi@mail.gov.nu           | <https://niue-data.sprep.org>           |
+| Palau                      |       Gwen Sisior        | gsisior07@gmail.com                | <https://palau-data.sprep.org>          |
+| PNG                        |      Richard Balone      | richbalone@gmail.com               | <https://png-data.sprep.org>            |
+| Samoa                      |      Francis Brown       | fran.reupena@mnre.gov.ws           | <https://samoa-data.sprep.org>          |
+| Solomon Islands            |       Rosemary Apa       | rosemaryapa@gmail.com              | <https://solomonislands-data.sprep.org> |
+| Tonga                      |       Lupe Matoto        | lupe.matoto@gmail.com              | <https://tonga-data.sprep.org>          |
+| Tuvalu                     |       Lamese Saamu       | jzonester@gmail.com                | <https://tuvalu-data.sprep.org>         |
+| Vanuatu                    |    Rontextar Mogeror     | rmogeror@vanuatu.gov.vu            | <https://vanuatu-data.sprep.org>        |
 
-The Inform project will help Pacific islands have reliable access to their own national datasets for environmental information, as well as a process and guide for information use standards. Capacity will be built to develop content that is then inputted into the reporting process. Additionally, the capacity of officers will be enhanced with regards to the best ways to share the information they have so it is well used by their decision makers and different communities. The information provided within the databases will also help policy development, monitoring and evaluation, and national planning.
+_"The Pacific Environment Portal provides an easy way to find, access and reuse regional and national data. Our main purpose is to provide easy access and safe storage for environmental datasets to be used for monitoring, evaluating, and analysing environmental conditions and trends to support environmental planning, forecasting, and reporting requirements at all levels. This Pacific Environment Portal is part of the Pacific Data Ecosystem, a partnership between Pacific Island Countries, SPREP and SPC. Visit the Pacific Data Hub for more data. The Pacific Environment Portal automatically pulls in data from national repositories. This provides back-up and redundancy for national repositories. The countries retain data ownership. The online repository can be used to store and access any data type including tables (Excel, CSV) documents (Word and PDF), GIS files (.geojson, .shp, .tab) and any other file type including non-environmental datasets."_
 
-Over a four-year period from 2017–2021, Inform will work in the Cook Islands, Federated States of Micronesia, Fiji, Kiribati, Republic of the Marshall Islands, Nauru, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, and Vanuatu.
-
-## Team
-
-| Name            |                          Title                          | Email              | Profile                                                                          |
-| --------------- | :-----------------------------------------------------: | :----------------- | -------------------------------------------------------------------------------- |
-| Paul Anderson   |                 Inform Project Manager                  | paula@sprep.org    | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/paula.jpg')} />    |
-| Peter McDonald  |    Environmental Monitoring and Reporting Specialist    | petermc@sprep.org  | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/petermc.jpg')} />  |
-| Julie Callebaut |  Environmental Monitoring and Reporting GIS Specialist  | juliec@sprep.org   | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/juliec.jpg')} />   |
-| Tavita Su'a     | Environmental Information Systems Developer and Analyst | tavitas@sprep.org  | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/tavitas.jpg')} />  |
-| Lagi Reupena    |        Inform Project Environmental Data Officer        | lagir@sprep.org    | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/lagir.jpg')} />    |
-| Sabrina Reupena |    Inform Project Finance and Administration Officer    | sabrinar@sprep.org | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/sabrinar.jpg')} /> |
-
-## Progress
+## The Indicator Reporting Tool
 
 The Inform project continues to help countries set up national environment portals, predominantly housed with national environment departments. So far national environment portals have been introduced and set up in all 11 Pacific island countries, with the expressed interest of the countries and their active engagement in using the portal as a centralised repository to store data for improved decision-making. Countries have also taken part in capacity training in data management and uploading datasets to their national portals. In addition to national portals, the regional data portal, the Pacific Environment Portal access and house data from various international sources and push this data to populate national portals. The development of national environment portals and the regional data portal supports and promotes open data systems for improved data sharing.
 
