@@ -12,7 +12,13 @@ module.exports = {
       'Inform/tools',
       'Inform/processes',
     ],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    'Data Portal': [
+      'Inform/dataportal'
+    ],
+    'Indicator Reporting Tool': [
+      'Inform/irt',
+    ],
+    // Docusaurus: ['doc1', 'doc2', 'doc3'],
+    // Features: ['mdx'],
   },
 };

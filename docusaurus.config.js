@@ -9,10 +9,10 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'InformDocs',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/inform.png',
+      },
       links: [
         {to: 'docs/Inform/introduction', label: 'Docs', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
