@@ -14,9 +14,14 @@ module.exports = {
     ],
     'Data Portal': [
       'dataportal/quickstart',
+      'dataportal/faq',
     ],
     'Indicator Reporting Tool': [
       'irt/intro',
+    ],
+    'Advanced': [
+      'advanced/setup',
+      'advanced/localdev',
     ],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
     // Features: ['mdx'],

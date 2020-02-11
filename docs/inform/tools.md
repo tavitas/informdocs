@@ -32,22 +32,14 @@ _"The Pacific Environment Portal provides an easy way to find, access and reuse 
 
 ## The Indicator Reporting Tool
 
-The Inform project continues to help countries set up national environment portals, predominantly housed with national environment departments. So far national environment portals have been introduced and set up in all 11 Pacific island countries, with the expressed interest of the countries and their active engagement in using the portal as a centralised repository to store data for improved decision-making. Countries have also taken part in capacity training in data management and uploading datasets to their national portals. In addition to national portals, the regional data portal, the Pacific Environment Portal access and house data from various international sources and push this data to populate national portals. The development of national environment portals and the regional data portal supports and promotes open data systems for improved data sharing.
+https://indicators.sprep.org
 
-Papua New Guinea have recently launched a data sharing policy, an initiative of the Conservation and Environment Protection Authority (CEPA). The policy encourages the free exchange of data within CEPA, with other government agencies and institutions within PNG and with the public. Originally designed as an environment portal, the portal can serve more than just CEPA, and thus was renamed the PNG Data Portal.
+The indicator reporting tool is an online platform designed to make reporting environmental data easier for Pacific Islands Countries (PICs). The environment data portals were established in each Pacific Island country to meet the requirementes for an easy-to-use and safe repository for national environmental data. However, PICs identified the additional need to reduce the burden in meeting their reporting requirements, particularly under a growing number of multilateral environment agreements (MEAs).
 
-Countries who are signatories to environment conventions of the multilateral environment agreements (MEAs) have reporting obligations to the conventions, and by having access to a repository of data through the national data portal reporting obligations will be easier to respond to. The same scenario applies to reporting the Sustainable Development Goals (SDGs).
+The reporting tool has three main functions:
 
-Inform has successfully hosted South-South Knowledge Exchange on sharing experiences on open data platforms. Palau, FSM, PNG, Kiribati, and Samoa recently shared experiences on managing their national data portals with discussions focussing on current national environment data portals. Participants were re-introduced to the Inform national data portal for data management and as a storehouse for information on the environment. Participants also had hands-on training on field collection of data using a mobile app to facilitate data collection and analyses.
-
-A Pacific Data Ecosystem promoting open data platforms is being introduced, combining the resources of SPC and SPREP for data sharing. Both regional organisations collect data on a range of development issues with the region focussing on the environment, the Pacific Data Ecosystem will increase access and sharing of data to benefit Pacific countries and territories in the areas of climate change, fisheries, energy, maritime, land resources, and the environment. The Pacific Data Hub (SPC) and the Pacific Environment Portal (PEP), as well as the country portals make up the Pacific Data Ecosystem (PDE).
-
-##### BIOPAMA-Inform Project Partnership
-
-Strengthening partnerships for the environment to help Pacific island countries better manage their natural resources is the goal of a close collaboration between two SPREP projects - the regional Inform data management project and BIOPAMA. The goal of the partnership is to help Pacific island countries better report on, and understand the status of protected areas, conservation and the environment in their respective jurisdictions. [Read more](https://www.sprep.org/news/biopama-and-inform-project-a-partnership-for-improved-reporting-on-pacific-protected-and-conserved-areas)
-
-Solomon Islands Launch Products to improve Environmental Governance
-
-Helping Solomon Islands to further enhance environment monitoring and reporting was the launch of a national environmental online portal as well as a range of reports called the Ecosystem Resilience Analysis and Mapping Reports.The national environment portal is an online database providing a centralised data management system housing information and data on the environment for informed decision-making. The ESRAM Reports are studies to assess natural ecosystems, their current conditions, how communities use them, and what impacts of climate change are having on these ecosystems. [Read more](https://www.sprep.org/news/solomon-islands-launch-products-to-improve-environmental-governance)
+1. add and update environmental indicators
+2. link indicators to targets under reporting obligations
+3. produce reports. The key advantage of using the indicator reporting tool is that once an indicator has been updated, it can be reused for any number of reporting requirements and reports produced with the click of a button.
 
 ---
