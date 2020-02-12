@@ -103,8 +103,7 @@ The format of your data makes a big difference to how it can be viewed and used.
 
 Some data formats are machine-readable, allowing the data portal to process the files, so they are easier to find and can be published as graphs and charts.
 
-You can make your data machine-readable by uploading it in the CSV format.
-Formatting data as CSV
+You can make your data machine-readable by uploading it in the CSV format. Formatting data as CSV
 
 Most data-crunching software like **Microsoft Excel** allows you to simply go to `File >> Save As` and choose the CSV format.
 
