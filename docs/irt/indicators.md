@@ -1,18 +1,18 @@
 ---
-id: indicators
-title: Defining Indicators
-sidebar_label: Defining Indicators
+id: define_indicators
+title: Define Indicators
+sidebar_label: Define Indicators
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Homepage
+
+https://indicators.sprep.org
+
 <img alt="Dataset Overview" src={useBaseUrl('img/irt/login.png')} />
 
-We can start creating our indicators under the **Indicator Definitions** function in red below.
-
 Clicking on **Indicator Definitions** will display a description of this function.
-
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-function.png')} />
 
 Confirm selection by clicking on the newly displayed **Indicator Definitions**
 
@@ -20,7 +20,7 @@ Confirm selection by clicking on the newly displayed **Indicator Definitions**
 
 A list of defined indicators and their authors will be displayed in a table. The attribution will either be given to a country or to the SPREP group.
 
-You can either choose to use or edit an existing indicator definition, or create a new indication definition altogether. Please note you can ONLY edit a definition that was defined by someone from your own country group. For instance, a user from Cook Islands can only modify the definition of an indicator that was previously defined from another user from Cook Islands. However, he /she can only view or use but cannot modify a definition that was originally created by someone from another group/country, Solomon Islands.
+> You can either choose to use or edit an existing indicator definition, or create a new indication definition altogether. Please note you can ONLY edit a definition that was defined by someone from your own country group. For instance, a user from Cook Islands can only modify the definition of an indicator that was previously defined from another user from Cook Islands. However, he /she can only view or use but cannot modify a definition that was originally created by someone from another group/country, Solomon Islands.
 
 ## Creating Indicators
 

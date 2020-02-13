@@ -19,7 +19,10 @@ module.exports = {
     ],
     'Indicator Reporting Tool': [
       'irt/intro',
-      'irt/indicators',
+      'irt/define_indicators',
+      'irt/obligations',
+      'irt/update_indicators',
+      'irt/reports',
     ],
     'Advanced': [
       'advanced/setup',
