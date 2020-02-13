@@ -19,6 +19,7 @@ module.exports = {
     ],
     'Indicator Reporting Tool': [
       'irt/intro',
+      'irt/indicators',
     ],
     'Advanced': [
       'advanced/setup',
