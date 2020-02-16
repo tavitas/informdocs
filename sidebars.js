@@ -26,7 +26,8 @@ module.exports = {
     ],
     'Advanced': [
       'advanced/setup',
-      'advanced/localdev',
+      'advanced/docker'
+      // 'advanced/localdev',
     ],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
     // Features: ['mdx'],
