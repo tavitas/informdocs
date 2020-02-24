@@ -9,9 +9,11 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
-            - run: yarn install
+            - run:
+              name: Install dependencies
+              command: yarn install --frozen-lockfile
             - run: yarn run build
-            - run: yarn run start
+            
 workflows:
     build-and-test:
       jobs:
