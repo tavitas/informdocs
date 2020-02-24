@@ -1,20 +1,22 @@
-version: 2.1
-orbs:
-  node: circleci/node@1.1.6
+version: 2
 jobs:
-  build-and-test:
-    executor:
-      name: node/default
+  deploy-website:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:8.11.1
+
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run:
-              name: Install dependencies
-              command: yarn install --frozen-lockfile
-            - run: yarn run build
-            
+      - run:
+          name: Deploying to GitHub Pages
+          command: |
+            git config --global user.email "tavitas@sprep.org"
+            git config --global user.name "Tavita Su'a"
+            echo "machine github.com login tavitas password $GITHUB_TOKEN" > ~/.netrc
+            cd website && yarn install && GIT_USER=tavitas yarn run publish-gh-pages
+
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  version: 2
+  build_and_deploy:
+    jobs:
+      - deploy-website:
