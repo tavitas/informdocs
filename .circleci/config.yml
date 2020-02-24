@@ -13,7 +13,7 @@ jobs:
             git config --global user.email "tavitas@sprep.org"
             git config --global user.name "Tavita Su'a"
             echo "machine github.com login tavitas password $GITHUB_TOKEN" > ~/.netrc
-            cd website && yarn install && GIT_USER=tavitas USE_SSH=true yarn run deploy
+            cd website && yarn install && GIT_USER=tavitas USE_SSH=true yarn run publish-gh-pages
 
 workflows:
   version: 2
