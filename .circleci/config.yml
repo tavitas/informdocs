@@ -14,7 +14,6 @@ jobs:
             git config --global user.name "Tavita Su'a"
             echo "machine github.com login tavitas password $GITHUB_TOKEN" > ~/.netrc
             yarn install && GIT_USER=tavitas USE_SSH=true yarn run deploy -y
-
 workflows:
   version: 2
   build_and_deploy:
