@@ -2,7 +2,7 @@ module.exports = {
   title: 'Inform Docs',
   tagline: 'Documentation for the SPREP Inform project',
   url: 'https://tavitas.github.io',
-  baseUrl: '/informdocs/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tavitas', // Usually your GitHub org/user name.
   projectName: 'informdocs', // Usually your repo name.
