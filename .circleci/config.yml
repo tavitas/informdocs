@@ -9,7 +9,6 @@ version: 2
 jobs:
   build:
     machine: true
-
     steps:
       - checkout
 
