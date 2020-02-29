@@ -15,7 +15,12 @@ module.exports = {
       },
       links: [
         {to: 'docs/inform/introduction', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://pacific-data.sprep.org/search/type/dataset',
+          label: 'Datasets',
+          position: 'right',
+        },
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tavitas/informdocs',
           label: 'GitHub',
