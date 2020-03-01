@@ -1,7 +1,8 @@
 module.exports = {
   title: 'Inform Docs',
   tagline: 'Documentation for the SPREP Inform project',
-  url: 'https://tavitas.github.io',
+  // url: 'https://tavitas.github.io',
+  url: 'https://docs.pacific-data.sprep.org',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tavitas', // Usually your GitHub org/user name.
