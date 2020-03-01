@@ -15,7 +15,9 @@ module.exports = {
         src: 'img/inform.png',
       },
       links: [
-        {to: 'docs/inform/introduction', label: 'Docs', position: 'left'},
+        { to: 'docs/inform/introduction', label: 'Docs', position: 'left' },
+        {to: 'docs/dataportal/quickstart', label: 'Data Portal', position: 'left'},
+        { to: 'docs/irt/intro', label: 'Indicator Reporting', position: 'left' },
         {
           href: 'https://pacific-data.sprep.org/search/type/dataset',
           label: 'Datasets',
