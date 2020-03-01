@@ -83,6 +83,11 @@ module.exports = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} SPREP Inform Docs. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-128098889-19',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
