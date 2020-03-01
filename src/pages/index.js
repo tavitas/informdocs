@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>SPREP Inform</>,
+    imageUrl: 'img/inform.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        General information on the SPREP Inform project.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Data Portals</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Help material on the deployed DKAN data data portals.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Indicator Reporting Tool</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Help material for the Indicator Reporting Tool.
       </>
     ),
   },
