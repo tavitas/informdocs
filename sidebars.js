@@ -7,26 +7,22 @@
 
 module.exports = {
   someSidebar: {
-    Inform: [
-      'inform/introduction',
-      'inform/tools',
-      'inform/processes',
+    Inform: ["inform/introduction", "inform/tools", "inform/processes"],
+    "Data Portal": [
+      "dataportal/quickstart",
+      "dataportal/faq",
+      "dataportal/managingusers",
     ],
-    'Data Portal': [
-      'dataportal/quickstart',
-      'dataportal/faq',
-      'dataportal/managingusers'
+    "Indicator Reporting Tool": [
+      "irt/intro",
+      "irt/define_indicators",
+      "irt/obligations",
+      "irt/update_indicators",
+      "irt/reports",
     ],
-    'Indicator Reporting Tool': [
-      'irt/intro',
-      'irt/define_indicators',
-      'irt/obligations',
-      'irt/update_indicators',
-      'irt/reports',
-    ],
-    'Advanced': [
-      'advanced/setup',
-      'advanced/docker'
+    Advanced: [
+      "advanced/setup",
+      // 'advanced/docker'
       // 'advanced/localdev',
     ],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
