@@ -40,10 +40,10 @@ module.exports = {
       ],
     },
     algolia: {
-      appId: "app-id",
+      // appId: "app-id",
       apiKey: "d21c15fa49cb0cafe787c200328c1904",
       indexName: "sprep_inform",
-      algoliaOptions: {}, // Optional, if provided by Algolia
+      // algoliaOptions: {}, // Optional, if provided by Algolia
     },
     footer: {
       style: "dark",
