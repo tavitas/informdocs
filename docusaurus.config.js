@@ -1,38 +1,52 @@
 module.exports = {
-  title: 'Inform Docs',
-  tagline: 'Documentation for the SPREP Inform project',
+  title: "Inform Docs",
+  tagline: "Documentation for the SPREP Inform project",
   // url: 'https://tavitas.github.io',
-  url: 'https://docs.pacific-data.sprep.org',
-  baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'tavitas', // Usually your GitHub org/user name.
-  projectName: 'informdocs', // Usually your repo name.
+  url: "https://docs.pacific-data.sprep.org",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
+  organizationName: "tavitas", // Usually your GitHub org/user name.
+  projectName: "informdocs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'InformDocs',
+      title: "InformDocs",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/inform.png',
+        alt: "My Site Logo",
+        src: "img/inform.png",
       },
       links: [
-        { to: 'docs/inform/introduction', label: 'Docs', position: 'left' },
-        {to: 'docs/dataportal/quickstart', label: 'Data Portal', position: 'left'},
-        { to: 'docs/irt/intro', label: 'Indicator Reporting', position: 'left' },
+        { to: "docs/inform/introduction", label: "Docs", position: "left" },
         {
-          href: 'https://pacific-data.sprep.org/search/type/dataset',
-          label: 'Datasets',
-          position: 'right',
+          to: "docs/dataportal/quickstart",
+          label: "Data Portal",
+          position: "left",
+        },
+        {
+          to: "docs/irt/intro",
+          label: "Indicator Reporting",
+          position: "left",
+        },
+        {
+          href: "https://pacific-data.sprep.org/search/type/dataset",
+          label: "Datasets",
+          position: "right",
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tavitas/informdocs',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/tavitas/informdocs",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
+    algolia: {
+      appId: "app-id",
+      apiKey: "d21c15fa49cb0cafe787c200328c1904",
+      indexName: "sprep_inform",
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     footer: {
-      style: 'dark',
+      style: "dark",
       // logo2,
       // logo: {
       //   alt: 'Inform Logo',
@@ -80,28 +94,28 @@ module.exports = {
       //   },
       // ],
       logo: {
-        alt: 'GEF Logo',
-        src: 'img/inform/sprep-logo.png'
+        alt: "GEF Logo",
+        src: "img/inform/sprep-logo.png",
       },
       copyright: `Copyright © ${new Date().getFullYear()} SPREP Inform Docs. Built with Docusaurus.`,
     },
     googleAnalytics: {
-      trackingID: 'UA-128098889-19',
+      trackingID: "UA-128098889-19",
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
