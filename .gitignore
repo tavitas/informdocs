@@ -21,3 +21,6 @@ yarn-error.log*
 
 # Secrets
 .env
+
+# Lock file
+yarn.lock
