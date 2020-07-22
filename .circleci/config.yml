@@ -9,34 +9,32 @@ version: 2
 jobs:
   build:
     machine: true
+
     steps:
       - checkout
+
       - restore_cache:
           keys:
             - yarn-v1-{{ checksum "yarn.lock" }}
             - yarn-v1-
+
       - run: wget -qO- https://api.wodby.com/api/v1/get/cli | sh
       - run: wodby ci init $WODBY_INSTANCE_UUID
+
       - run:
           name: Fix .cache permissions
           command: wodby ci run -v $HOME/.cache:/home/node/.cache --user root -- chown -R 1000:1000 /home/node/.cache
+
       - run:
           name: Install node modules
           command: wodby ci run -v $HOME/.cache:/home/node/.cache -i wodby/node -- yarn install
+
       - save_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
+
       - run: wodby ci run -i wodby/node -- yarn run build
       - run: wodby ci build --from ./build
       - run: wodby ci release
       - run: wodby ci deploy
-
-workflows:
-  version: 2
-  main:
-    jobs:
-      - build:
-          filters:
-            branches:
-              only: develop
