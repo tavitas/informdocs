@@ -14,7 +14,7 @@ A Site Manager or Administrator can change your password. Once logged in with th
 
 #### 3. How do I upload new data on the portal?
 
-New data can be added to the portal by selecting ‘Dataset’ under the ‘Add content’ menu. Read more in [Create a dataset](/informdocs/docs/dataportal/quickstart#create-a-dataset).
+New data can be added to the portal by selecting ‘Dataset’ under the ‘Add content’ menu. Read more in [Create a dataset](/docs/dataportal/quickstart#create-a-dataset).
 
 #### 4. How do I delete data on the portal?
 
