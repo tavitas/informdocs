@@ -10,31 +10,33 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 https://indicators.sprep.org
 
-"The Indicator Reporting Tool aims to simplify reporting processes and reduce reporting burden by facilitating re-use of indicator definitions across multiple reporting obligations. The tool can be used for multilateral reporting obligations such as MEAs (Multilateral Environmental Agreements) as well as national and state based indicator reporting. The Indicator Reporting Tool is targeted towards government officials responsible for compiling and producing indicator based reports."
+The burden of global, regional and project reporting has been a longstanding concern of Pacific Island Countries (PICs). PICs experience a high workload when trying to meet these reporting obligations like Multilateral Environment Agreement (MEA) Reporting and State of the Environment Reports, to name just a few. The complexity, duplication and sheer volume of reporting is overwhelming for small administrations.
+
+In an effort to reduce the workload on PICs to meet these reporting obligations, the Indicator Reporting Tool aims to simplify reporting processes and reduce reporting burden by facilitating re-use of indicator definitions across multiple reporting obligations. The tool can be used for multilateral reporting obligations such as MEAs (Multilateral Environmental Agreements) as well as national and state based indicator reporting. It is targeted towards government officials responsible for compiling and producing indicator based reports.
 
 <img alt="Dataset Overview" src={useBaseUrl('img/irt/obligations.png')} />  
 
 ## Terminology
 
-### Reporting Obligations
+### Reporting Obligation
 
-These are requirements to provide information agreed between countries and international bodies or international conventions. Reporting obligations provide the basis for most environmental information flows. They can have a national, regional or international scope. Example: Sustainable Development Goals (SDGs), National Environment Management Strategy (NEMS), State of the Environment Report (SOE) etc.
+A reporting obligation might be a national report, the State of Environment Report or a Multilateral Environemental Agreement (MEA). These are requirements to provide information agreed between countries and international bodies or international conventions. Reporting obligations provide the basis for most environmental information flows. They can have a national, regional or international scope. Example: Sustainable Development Goals (SDGs), National Environment Management Strategy (NEMS), State of the Environment Report (SOE) etc.
 
-### Indicators
+### Indicator
 
-Indicators are simple measures that tell us what is happening to the environment. Since the environment is complex, indicators provide a practical way to track the state of the environment. Example greenhouse gas emissions, live coral cover, forest cover etc.
+An indicator tells us what is happening to the environment. Since the environment is complex, indicators provide a practical way to track the state of the environment. Example; greenhouse gas emissions, live coral cover, forest cover etc.
 
-### Indicator Definitions
+### Indicator Definition
 
-Indicator definitions are "how to measure" indicators. They are the specific descriptions of how an indicator is defined, the methodology to measure it, the unit of measurements etc. A well defined indicator should allow for comparable measurements to be collected over time to identify trends.
+Indicator definitions are "how to measure" indicators. It refers to a specific description of how an indicator is defined, the methodology to measure it, the unit of measurements etc. A well defined indicator should allow for comparable measurements to be collected over time to identify trends. The Indicator Reporting Tool is populated with a collection of pre-defined indicator definitions.
 
 <img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-definition.png')} />  
 
 ### Indicator State
 
-This is an indicator's 'measurements'. An indicator state records the measurements and trends at a given point in time according to the instructions defined in the related indicator definition.
+An indicator state details the state of the environment in relation to a pre-defined indicator definition. An indicator state records the measurements and trends at a given point in time and it describes the status justified by data available.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-state.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-state-2.png')} />  
 
 ## Functions
 
