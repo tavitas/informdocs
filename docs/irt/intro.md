@@ -14,7 +14,7 @@ The burden of global, regional and project reporting has been a longstanding con
 
 In an effort to reduce the workload on PICs to meet these reporting obligations, the Indicator Reporting Tool aims to simplify reporting processes and reduce reporting burden by facilitating re-use of indicator definitions across multiple reporting obligations. The tool can be used for multilateral reporting obligations such as MEAs (Multilateral Environmental Agreements) as well as national and state based indicator reporting. It is targeted towards government officials responsible for compiling and producing indicator based reports.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/obligations.png')} />  
+<img alt="Obligations" src={useBaseUrl('img/irt/obligations.png')} />
 
 ## Terminology
 
@@ -30,13 +30,13 @@ An indicator tells us what is happening to the environment. Since the environmen
 
 Indicator definitions are "how to measure" indicators. It refers to a specific description of how an indicator is defined, the methodology to measure it, the unit of measurements etc. A well defined indicator should allow for comparable measurements to be collected over time to identify trends. The Indicator Reporting Tool is populated with a collection of pre-defined indicator definitions.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-definition.png')} />  
+<img alt="Indicator Definition" src={useBaseUrl('img/irt/indicator-definition.png')} />
 
 ### Indicator State
 
 An indicator state details the state of the environment in relation to a pre-defined indicator definition. An indicator state records the measurements and trends at a given point in time and it describes the status justified by data available.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/indicator-state-2.png')} />  
+<img alt="Indicator State" src={useBaseUrl('img/irt/indicator-state-2.png')} />
 
 ## Functions
 
@@ -48,11 +48,11 @@ The Indicator Reporting Tool (IRT) has 5 main functions.
 - Manage Reporting Obligations and Indicator Definitions
 - Indicators
 
-###  Produce Indicator State Sheet
+### Produce Indicator State Sheet
 
 Based on existing indicator states, this process will allow you to select an existing reporting obligation, verify the date the data is valid for and export the indicatorstates as an editable document.
 
-###  Produce Report
+### Produce Report
 
 Based on existing indicator states, this process will allow you to select an existing reporting obligation, verify the date the data is valid for and export the collectionindicator states as an editable document.
 
