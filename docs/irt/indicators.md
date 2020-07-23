@@ -6,11 +6,9 @@ sidebar_label: Define Indicators
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Homepage
+## Indicator Definitions
 
-https://indicators.sprep.org
-
-<img alt="Dataset Overview" src={useBaseUrl('img/irt/login.png')} />
+The Indicator Reporting tool is populated with a collection of pre-defined indicator definitions. 
 
 Clicking on **Indicator Definitions** will display a description of this function.
 
