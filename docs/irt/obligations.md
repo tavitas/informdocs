@@ -22,10 +22,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 1. Create an Obligation
 
-Click on the Create New Reporting Obligation button. Obligations only have 2 fields.
+Click on the Create New Reporting Obligation button (B). Obligations only have 2 fields.
 
 - 1. **Title** Name of Reporting Obligation (e.g. State of the Environment, National Biodiversity Strategic Plan etc). This field is mandatory
-- 2. **Sumamry** any general and introductory information regarding the Reporting Obligation. This field is not mandatory but it is highly recommended to supply this information. You can also add images as required.
+- 2. **Summary** any general and introductory information regarding the Reporting Obligation. This field is not mandatory but it is highly recommended to supply this information. You can also add images as required.
 
 <img alt="Create Obligation" src={useBaseUrl('img/irt/manage-obligation-3.png')} />
 
@@ -33,11 +33,11 @@ Click on the **Save** button once done. You will then see your newly created Rep
 
 ## 2. Modify an Obligation
 
-We can edit an existing obligation by clicking on the **Edit Summary** button next to the obligation that we want to edit. Make the proposed edits and click on the **Save** button.
+We can edit an existing obligation by clicking on the **Edit Summary** button (C) next to the obligation that we want to edit. Make the proposed edits and click on the **Save** button.
 
 ## 3. Manage an Obligation
 
-Click on the **Manage Framework** button next to the Obligation that want to manage. A newly created obligation will have no listed targets.
+Click on the **Manage Framework** button (C) next to the Obligation that you want to manage. A newly created obligation will have no listed targets.
 
 Manage an existing reporting obligation (e.g. State of the Environment) by adding new targets, or edit its existing targets to add indicators. Note that you can group a collection of indicators by target under the same reporting obligation.
 
@@ -45,7 +45,7 @@ Obligation -> Targets -> Indicators
 
 ## 4. Create/Edit a Target
 
-You can add targets to an obligation by clicking on the **Create New Target** button. You can also edit existing targets by clicking on the **Edit Target** button next to the target that you want to edit.
+You can add targets to an obligation by clicking on the **Create New Target** button. You can also edit existing targets by clicking on the **Edit Target** button next to the target that you want to edit. *refer to Terminology for definition of "Reporting Obligation Target"
 
 <img alt="Create Obligation" src={useBaseUrl('img/irt/manage-obligation-4.png')} />
 
