@@ -17,7 +17,7 @@ const features = [
     title: <>Data Portals</>,
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: <>Help material on the deployed DKAN data data portals.</>,
-    redirectURL: "docs/dataportal/introduction",
+    redirectURL: "docs/dataportal/quickstart",
   },
   {
     title: <>Indicator Reporting Tool</>,
