@@ -12,30 +12,30 @@ What you can do on the portal depends on the permissions given to the role assig
 
 The following is a list of each role used in the data portal, with a description of its purpose and a general description of what the role is able to do. Multiple roles can be assigned to a user, but generally they are in a hierarchy where any higher level role has equal and greater permissions of a lower level role.
 
-### Anonymous User
+**Anonymous User**
 
 This is any site visitor accessing the site who is not logged in. Anyone who is not authenticated is an anonymous user. It is sometimes useful to log out of your account to view pages as an anonymous user will see them.
 
-#### Permissions:
+**Permissions:**
 
 - [x] View and search published content
 
-### Content Creator
+**Content Creator**
 
 Content Creators are the most common users who will have access to login and provide datasets to be published on the environmental data portal. These users should also be members of a group, which would typically be the government agency they are employed by.
 
-#### Permissions:
+**Permissions:**
 
 - [x] Create datasets and resources
 - [x] Edit datasets and resources related to their group.
 - [x] Create visualizations (charts)
 - [x] Edit own visualizations
 
-### Site Manager
+**Site Manager**
 
 This role is the highest level possible for non-technical users. A Site Manager performs administrative functions, and is a role best suited for a supervisor, manager, or other trusted upper-level employee. The Site Manager is provided with a sweeping overview of the site as well as its content and users. However, they do not deal with the technical back-end configuration or code.
 
-#### Permissions:
+**Permissions:**
 
 - [x] Create, edit and delete datasets and resources associated with any group.
 - [x] Create, edit and delete visualizations (charts).
@@ -45,11 +45,11 @@ This role is the highest level possible for non-technical users. A Site Manager 
 - [x] Administer users
 - [x] Configure Harvests
 
-### Administrator
+**Administrator**
 
 Administrators hold the highest level of all roles and permissions and have no restrictions. Administrators are able to modify settings of the underlying Drupal platform, and can modify most things of the site to meet user needs. This role is for a web professional with high technical competency and a good understanding of how Drupal works.
 
-#### Permissions:
+**Permissions:**
 
 - [x] Modify themes and layouts, and enable or disable modules.
 - [x] Modify Drupal settings
@@ -90,37 +90,38 @@ New and existing users must be manually added to a group(s) in order for them to
 
 Site managers can manage users by clicking ‘People’ in the Admin Menu. From this screen you can see all existing users, their roles, and details about their account, and by clicking on individual users you can additionally see all the content the user has created. You can also edit their account to change details, add or remove a role, add them to Groups or cancel an account.
 
-1. Access the user management page under the **People** link  
+1. Access the user management page under the **People** link
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/user-management-page.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/user-management-page.png')} />
 
 List of Users
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/user-list.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/user-list.png')} />
 
-2. Editing an existing user’s account  
+2. Editing an existing user’s account
 
 The displayed list of users on the User Management page can be filtered and sorted using the filters at the top of the page. Once you’ve found the user you wish to edit in the user table, click the “edit” link at the end of that user’s row. On the resulting “edit user” page, you can edit the user’s username, email, or profile information. You can also set a new password for the user. Click the “Save” button at the bottom of the page to save your changes.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/edit-user.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/edit-user.png')} />
 
 ## Blocking a User or Cancelling an Account
 
 At some point, a user account may need to be deleted or blocked. Typically this is for internal employees who move on from the organization, but there are occasions involving external users. There are a number of options for canceling an account or blocking a user to meet a number of scenarios.
 
 #### Block an account
+
 Blocking an account is the most simple and straightforward way to suspend an account. Blocking a user account keeps a user from logging in, and accounts can easily be unblocked. A blocked account only means that a user cannot login to their account and access your DKAN site. All of their content and profile details will remain, so nothing is lost if you want to unblock an account and restore access. By blocking an account, you keep users from creating a new account with the same details and avoid repeating the blocking process.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/block-account.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/block-account.png')} />
 
 #### Cancel an account
 
 Canceling an account can be a permanent action, and there are several options to choose from.
 Some of the actions cannot be reversed, so you should be careful when deciding which option to choose. Below are the options for canceling an account and the implications of selecting the option. While Site Managers can cancel the account of any user on the site, users may also cancel their own accounts.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/cancel-account.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/cancel-account.png')} />
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/cancel-options.png')} />  
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/cancel-options.png')} />
 
 **Disable the account and keep its contents**  
 If you disable the account, the details of the profile remain in tact but the user is blocked from accessing the site with their user login. By keeping the contents, any content that the user published will remain on the live site. Because the account is only disabled (blocked) the user remains as the author of the content and the profile details may still be accessed. This option is similar to just blocking an account, and it’s a good temporary measure in most cases.
