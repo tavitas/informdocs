@@ -16,6 +16,8 @@ _"[DKAN](https://docs.getdkan.com/en/latest/introduction/index.html) is a open d
 
 _DKAN is a Drupal-based open data portal based on CKAN, the first widely adopted open source open data portal software. CKAN stands for Comprehensive Knowledge Archive Network. It has inspired at least one other variant - JKAN, which is built on Jekyll."_
 
+<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/dataset-resource.png')} />
+
 ## What is a dataset?
 
 Datasets are containers that hold resources. They can hold metadata such as author, license type etc, and can be assigned to Groups. One dataset record may contain multiple resource records, which are used to provide multiple file formats, data variations or related information such as reports.
