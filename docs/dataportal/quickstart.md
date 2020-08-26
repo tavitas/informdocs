@@ -6,7 +6,7 @@ sidebar_label: Quick Start
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Information in this document contains excerpts from the comprehensive DKAN manual available at https://docs.getdkan.com/en/latest
+Information in this document contains excerpts from the comprehensive DKAN manual available at https://dkan.readthedocs.io/en/latest/
 
 ## DKAN
 
