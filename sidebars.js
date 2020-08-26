@@ -11,8 +11,9 @@ module.exports = {
     "Data Portal": [
       "dataportal/quickstart",
       "dataportal/faq",
-      "dataportal/managingusers",
       "dataportal/goodpractices",
+      "dataportal/sitemanagers",
+      "dataportal/managingusers",
     ],
     "Indicator Reporting Tool": [
       "irt/intro",
