@@ -6,7 +6,7 @@ sidebar_label: Quick Start
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Information in this document contains excerpts from the comprehensive DKAN manual available at https://docs.getdkan.com/en/latest
+Information in this document contains excerpts from the comprehensive DKAN manual available at https://dkan.readthedocs.io/en/latest/
 
 ## DKAN
 
@@ -15,6 +15,8 @@ The SPREP Inform project adopted the DKAN Open Source Data Platform to implement
 _"[DKAN](https://docs.getdkan.com/en/latest/introduction/index.html) is a open data platform with a full suite of cataloging, publishing and visualization features that allows governments, nonprofits and universities to easily publish data to the public. DKAN is maintained by CivicActions._
 
 _DKAN is a Drupal-based open data portal based on CKAN, the first widely adopted open source open data portal software. CKAN stands for Comprehensive Knowledge Archive Network. It has inspired at least one other variant - JKAN, which is built on Jekyll."_
+
+<img alt="DKAN Catalog Overview" src={useBaseUrl('img/dataportal/dataset-resource.png')} />
 
 ## What is a dataset?
 
@@ -26,7 +28,7 @@ Datasets are containers that hold resources. They can hold metadata such as auth
 
 From the Admin Menu, hover over the Add Content menu link. On the drop-down menu, select the Dataset option.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/create-dataset.png')} />
+<img alt="Create Dataset" src={useBaseUrl('img/dataportal/create-dataset.png')} />
 
 ---
 
@@ -34,7 +36,7 @@ From the Admin Menu, hover over the Add Content menu link. On the drop-down menu
 
 Add values for the basic metadata fields such as title, description, tags, groups and topics. Specify the license as **Public**, **Shared** or **Private**. Click **NEXT: ADD DATA** to continue
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/metadata-dataset.png')} />
+<img alt="Metadata" src={useBaseUrl('img/dataportal/metadata-dataset.png')} />
 
 ---
 
@@ -56,7 +58,7 @@ Provide a URL to a file provided on an external website and the data portal will
 
 Provide URL link to resource provided by an external website. The link will be published as a standard hyperlink.
 
-<img alt="Dataset Overview" src={useBaseUrl('img/dataportal/resources-dataset.png')} />
+<img alt="Resources" src={useBaseUrl('img/dataportal/resources-dataset.png')} />
 
 ---
 
