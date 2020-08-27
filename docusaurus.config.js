@@ -14,7 +14,7 @@ module.exports = {
         alt: "My Site Logo",
         src: "img/inform.png",
       },
-      links: [
+      items: [
         { to: "docs/inform/introduction", label: "Docs", position: "left" },
         {
           to: "docs/dataportal/quickstart",
