@@ -12,7 +12,11 @@ module.exports = {
       "dataportal/quickstart",
       "dataportal/faq",
       "dataportal/goodpractices",
-      "dataportal/sitemanagers",
+      {
+        type: 'category',
+        label: 'Administration',
+        items: ['dataportal/sitemanagers', 'dataportal/managingusers']
+      },
     ],
     "Indicator Reporting Tool": [
       "irt/intro",
