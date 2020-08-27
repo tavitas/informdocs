@@ -34,15 +34,15 @@ No, the data portal is a place to store, access and visualize datasets. Analysis
 
 #### 8. How can I link existing online data to the portal?
 
-Resources can be files held on remote server and linked to the portal. When adding a resource, select the ‘Link to Remote File’ option and paste in the website URL l (e.g. http://example.com/gold-prices-jan-2011.csv). Read more in [Step 2: Add Resources](/informdocs/docs/dataportal/quickstart#2-add-resources).
+Resources can be files held on remote server and linked to the portal. When adding a resource, select the ‘Link to Remote File’ option and paste in the website URL l (e.g. http://example.com/gold-prices-jan-2011.csv). Read more in [Step 2: Add Resources](/docs/dataportal/quickstart#2-add-resources).
 
 #### 9. Can I add audio or video to the portal?
 
-Audio and video files can be uploaded to the portal in zipped folders. Video and audio displayed on an external website can be opened in the portal by adding a resource, selecting the ‘Embed External Resource’ and pasting in the website URL. Read more in [Step 2: Add Resources](/informdocs/docs/dataportal/quickstart#2-add-resources).
+Audio and video files can be uploaded to the portal in zipped folders. Video and audio displayed on an external website can be opened in the portal by adding a resource, selecting the ‘Embed External Resource’ and pasting in the website URL. Read more in [Step 2: Add Resources](/docs/dataportal/quickstart#2-add-resources).
 
 #### 10. What is metadata?
 
-Metadata is information about the data. Read more in Step [3: Additional Metadata](/informdocs/docs/dataportal/quickstart#3-additional-metadata).
+Metadata is information about the data. Read more in Step [3: Additional Metadata](/docs/dataportal/quickstart#3-additional-metadata).
 
 #### 11. Why tag datasets?
 

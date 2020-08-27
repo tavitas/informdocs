@@ -6,7 +6,7 @@ sidebar_label: Setup
 
 ## Docker4Drupal
 
-Both the [Data Portal](/informdocs/docs/inform/tools#data-portals) and the [Indicator Reporting Tool](/informdocs/docs/inform/tools#the-indicator-reporting-tool) are built on top of [Drupal](https://www.drupal.org). We have utilized the [docker4drupal](https://github.com/wodby/docker4drupal) project and [docker](https://www.docker.com) containerization platform to build these applications. The containers are managed and deployed using the [wodby](https://www.wodby.com) service to Amazon Web Services (AWS).
+Both the [Data Portal](/docs/inform/tools#data-portals) and the [Indicator Reporting Tool](/docs/inform/tools#the-indicator-reporting-tool) are built on top of [Drupal](https://www.drupal.org). We have utilized the [docker4drupal](https://github.com/wodby/docker4drupal) project and [docker](https://www.docker.com) containerization platform to build these applications. The containers are managed and deployed using the [wodby](https://www.wodby.com) service to Amazon Web Services (AWS).
 
 Below is the application stack that we have used:
 
