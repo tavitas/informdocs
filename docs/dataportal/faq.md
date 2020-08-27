@@ -38,11 +38,11 @@ Resources can be files held on remote server and linked to the portal. When addi
 
 #### 9. Can I add audio or video to the portal?
 
-Audio and video files can be uploaded to the portal in zipped folders. Video and audio displayed on an external website can be opened in the portal by adding a resource, selecting the ‘Embed External Resource’ and pasting in the website URL. Read more in [Step 2: Add Resources](/informdocs/docs/dataportal/quickstart#2-add-resources).
+Audio and video files can be uploaded to the portal in zipped folders. Video and audio displayed on an external website can be opened in the portal by adding a resource, selecting the ‘Embed External Resource’ and pasting in the website URL. Read more in [Step 2: Add Resources](/docs/dataportal/quickstart#2-add-resources).
 
 #### 10. What is metadata?
 
-Metadata is information about the data. Read more in Step [3: Additional Metadata](/informdocs/docs/dataportal/quickstart#3-additional-metadata).
+Metadata is information about the data. Read more in Step [3: Additional Metadata](/docs/dataportal/quickstart#3-additional-metadata).
 
 #### 11. Why tag datasets?
 

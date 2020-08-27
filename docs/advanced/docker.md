@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 https://www.docker.com
 
-Both the Inform Data Portals and the Indicator Reporting Tool rely on docker to containerize the [application stack](/informdocs/docs/advanced/setup#docker4drupal) (nginx, php, mysql etc.)
+Both the Inform Data Portals and the Indicator Reporting Tool rely on docker to containerize the [application stack](setup#docker4drupal) (nginx, php, mysql etc.)
 
 ## What is Docker?
 
