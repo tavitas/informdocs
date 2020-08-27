@@ -34,7 +34,7 @@ No, the data portal is a place to store, access and visualize datasets. Analysis
 
 #### 8. How can I link existing online data to the portal?
 
-Resources can be files held on remote server and linked to the portal. When adding a resource, select the ‘Link to Remote File’ option and paste in the website URL l (e.g. http://example.com/gold-prices-jan-2011.csv). Read more in [Step 2: Add Resources](/informdocs/docs/dataportal/quickstart#2-add-resources).
+Resources can be files held on remote server and linked to the portal. When adding a resource, select the ‘Link to Remote File’ option and paste in the website URL l (e.g. http://example.com/gold-prices-jan-2011.csv). Read more in [Step 2: Add Resources](/docs/dataportal/quickstart#2-add-resources).
 
 #### 9. Can I add audio or video to the portal?
 
