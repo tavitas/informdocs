@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+The InformDocs website provides documentation for the [SPREP Inform project](https://docs.pacific-data.sprep.org/docs/inform/introduction) and is built using Docusaurus 2
 
 ### Installation
 
