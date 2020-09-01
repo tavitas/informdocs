@@ -13,9 +13,13 @@ module.exports = {
       "dataportal/faq",
       "dataportal/goodpractices",
       {
-        type: 'category',
-        label: 'Administration',
-        items: ['dataportal/sitemanagers', 'dataportal/managingusers']
+        type: "category",
+        label: "Administration",
+        items: [
+          "dataportal/sitemanagers",
+          "dataportal/adminmenu",
+          "dataportal/managingusers",
+        ],
       },
     ],
     "Indicator Reporting Tool": [
