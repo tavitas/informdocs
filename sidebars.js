@@ -16,6 +16,7 @@ module.exports = {
         type: "category",
         label: "Administration",
         items: [
+          "dataportal/accountsetup",
           "dataportal/sitemanagers",
           "dataportal/adminmenu",
           "dataportal/managingusers",
