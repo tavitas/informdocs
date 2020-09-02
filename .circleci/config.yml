@@ -4,14 +4,18 @@
 # 3. Builds and pushes a docker image (HTTP server) with contents of the build (./build)
 # 4. Deploys this image to your HTML app instance
 
-version: 2
+workflows:
+  version: 2
+  testapp:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
 
 jobs:
   build:
-    filters:
-      branches:
-        only:
-          - master
     machine: true
     steps:
       - checkout
