@@ -4,8 +4,8 @@
 # 3. Builds and pushes a docker image (HTTP server) with contents of the build (./build)
 # 4. Deploys this image to your HTML app instance
 
+version: 2
 workflows:
-  version: 2
   testapp:
     jobs:
       - build:
@@ -16,7 +16,9 @@ workflows:
 
 jobs:
   build:
-    machine: true
+    machine:
+      # Manually specify newer image because the default one has expired root certificates.
+      image: circleci/classic:201808-01
     steps:
       - checkout
       - restore_cache:
