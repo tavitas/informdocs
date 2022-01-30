@@ -41,7 +41,7 @@ module.exports = {
     },
     algolia: {
       appId: "USH05RCS6I",
-      apiKey: "48fd31306dc294463d102f37c7bb580f",
+      apiKey: "ac51b715a1b415a0626c65fd0f8a0c3d",
       indexName: "sprep_inform",
       // algoliaOptions: {}, // Optional, if provided by Algolia
     },
