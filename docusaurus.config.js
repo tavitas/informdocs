@@ -39,12 +39,12 @@ module.exports = {
         },
       ],
     },
-    algolia: {
-      appId: "USH05RCS6I",
-      apiKey: "ac51b715a1b415a0626c65fd0f8a0c3d",
-      indexName: "sprep_inform",
-      // algoliaOptions: {}, // Optional, if provided by Algolia
-    },
+    // algolia: {
+    //   appId: "USH05RCS6I",
+    //   apiKey: "ac51b715a1b415a0626c65fd0f8a0c3d",
+    //   indexName: "sprep_inform",
+    //   // algoliaOptions: {}, // Optional, if provided by Algolia
+    // },
     footer: {
       style: "dark",
       // logo2,
