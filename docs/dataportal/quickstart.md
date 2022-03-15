@@ -26,7 +26,7 @@ Datasets are containers that hold resources. They can hold metadata such as auth
 
 ## Create a dataset
 
-From the Admin Menu, hover over the Add Content menu link. On the drop-down menu, select the Dataset option.
+From the Admin Menu, hover over the Datasets link. On the drop-down menu, select the Add Dataset option.
 
 <img alt="Create Dataset" src={useBaseUrl('img/dataportal/create-dataset.png')} />
 
@@ -34,13 +34,13 @@ From the Admin Menu, hover over the Add Content menu link. On the drop-down menu
 
 ### 1. Add Basic Metadata
 
-Add values for the basic metadata fields such as title, description, tags, groups and topics. Specify the license as **Public**, **Shared** or **Private**. Click **NEXT: ADD DATA** to continue
+Add values for the basic metadata fields such as title, description, groups, tags, relevant countries and topics. Specify the license as **Public**, **Shared** or **Private**. Fields with a red asterisk are mandatory. Click **NEXT: ADD DATA** to continue
 
 <img alt="Metadata" src={useBaseUrl('img/dataportal/metadata-dataset.png')} />
 
 ---
 
-### 2. Add Resources
+### 2. Add a Resource
 
 Resources are the actual files or references for the dataset being published. Multiple resources can be added to one dataset, which can be useful for publishing multiple formats or variations of the dataset. Resources can also be used to publish other related references such as a copy of a report that a dataset was used for.
 
