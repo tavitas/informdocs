@@ -100,6 +100,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} SPREP Inform Docs. Built with Docusaurus.`,
     },
   },
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   presets: [
     [
       "@docusaurus/preset-classic",
