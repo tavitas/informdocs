@@ -8,8 +8,8 @@ on:
   pull_request:
 
 env:
-  WODBY_INSTANCE_UUID: $WODBY_INSTANCE_UUID
-  WODBY_API_KEY: $WODBY_API_KEY
+  WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
+  WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
 
 jobs:
   build-and-deploy:
