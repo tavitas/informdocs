@@ -1,36 +1,49 @@
-# This is a basic workflow to help you get started with Actions
+name: Build and deploy wodby app
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "github-actions" ]
+    branches:
+    - 'github-actions'
+
   pull_request:
-    branches: [ "github-actions" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+env:
+  WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
+  WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-2004:202111-01
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+    
+    - name: Get Wodby CLI
+      run: wget -qO- https://api.wodby.com/api/v1/get/cli | sh
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+    - name: Initialize build config for app instance
+      run: wodby ci init $WODBY_INSTANCE_UUID
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    - name: Get Composer Cache Directory
+      id: composer-cache
+      run: |
+        echo "::set-output name=dir::$(composer config cache-files-dir)"
+    - name: Fix .composer permissions
+      run: wodby ci run -v $HOME/.composer:/home/wodby/.composer --user root -- chown -R 1000:1000 /home/wodby/.composer
+        
+    - name: Install composer dependencies
+      run: wodby ci run -v $HOME/.composer:/home/wodby/.composer -s php -- composer install -n
+
+    - uses: actions/cache@v3
+      with:
+        path: ${{ steps.composer-cache.outputs.dir }}
+        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-composer-
+    - name: Build images
+      run: wodby ci build --from ./
+
+    - name: Release images
+      run: wodby ci release
+
+    - name: Deploy app instance
+      run: wodby ci deploy
