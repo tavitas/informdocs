@@ -7,35 +7,44 @@ on:
 
   pull_request:
 
-jobs:  
+env:
+  WODBY_INSTANCE_UUID: $WODBY_INSTANCE_UUID
+  WODBY_API_KEY: $WODBY_API_KEY
+
+jobs:
   build-and-deploy:
-    environment: production
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     
+    - name: Cache node modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: yarn-v1-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: yarn-v1-
+
     - name: Get Wodby CLI
       run: wget -qO- https://api.wodby.com/api/v1/get/cli | sh
 
     - name: Initialize build config for app instance
       run: wodby ci init $WODBY_INSTANCE_UUID
 
-    - name: Get Composer Cache Directory
-      id: composer-cache
-      run: |
-        echo "::set-output name=dir::$(composer config cache-files-dir)"
-    - name: Fix .composer permissions
-      run: wodby ci run -v $HOME/.composer:/home/wodby/.composer --user root -- chown -R 1000:1000 /home/wodby/.composer
-        
-    - name: Install composer dependencies
-      run: wodby ci run -v $HOME/.composer:/home/wodby/.composer -s php -- composer install -n
+    - name: Fix .cache permissions
+      run: wodby ci run -v $HOME/.cache:/home/node/.cache --user root -- chown -R 1000:1000 /home/node/.cache
 
-    - uses: actions/cache@v3
+    - name: Install node modules
+      run: wodby ci run -v $HOME/.cache:/home/node/.cache -i wodby/node -- yarn install
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
       with:
-        path: ${{ steps.composer-cache.outputs.dir }}
-        key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-composer-
+        path: ~/.cache
+        key: yarn-v1-${{ checksum "yarn.lock" }}
+
+    - name: Build site
+      run: wodby ci run -i wodby/node -- yarn run build
+
     - name: Build images
       run: wodby ci build --from ./
 
