@@ -7,9 +7,9 @@ on:
 
   pull_request:
 
-jobs:
-  environment: production
+jobs:  
   build-and-deploy:
+    environment: production
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
