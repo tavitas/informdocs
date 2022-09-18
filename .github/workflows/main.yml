@@ -7,11 +7,8 @@ on:
 
   pull_request:
 
-env:
-  WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
-  WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
-
 jobs:
+  environment: production
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
