@@ -40,7 +40,7 @@ jobs:
       uses: actions/cache@v3
       with:
         path: ~/.cache
-        key: yarn-v1-${{ checksum "yarn.lock" }}
+        key: yarn-v1-${{ hashFiles('**/yarn.lock') }}
 
     - name: Build site
       run: wodby ci run -i wodby/node -- yarn run build
