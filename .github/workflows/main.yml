@@ -1,3 +1,5 @@
+# can test this config file locally using 'act' command and local .env file 
+# act --env-file .env
 name: Build and deploy wodby app
 
 on:
@@ -7,13 +9,16 @@ on:
 
   pull_request:
 
-env:
-  WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
-  WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
 
 jobs:
   build-and-deploy:
+    environment: production
     runs-on: ubuntu-latest
+
+    env:
+      WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
+      WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
+
     steps:
     - uses: actions/checkout@v2
     
