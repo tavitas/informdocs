@@ -5,37 +5,52 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-module.exports = {
-  someSidebar: {
-    Inform: ["inform/introduction", "inform/tools", "inform/processes"],
-    "Data Portal": [
-      "dataportal/quickstart",
-      "dataportal/faq",
-      "dataportal/goodpractices",
-      {
-        type: "category",
-        label: "Administration",
-        items: [
-          "dataportal/accountsetup",
-          "dataportal/sitemanagers",
-          "dataportal/adminmenu",
-          "dataportal/managingusers",
-        ],
-      },
-    ],
-    "Indicator Reporting Tool": [
-      "irt/intro",
-      "irt/define_indicators",
-      "irt/obligations",
-      "irt/update_indicators",
-      "irt/reports",
-    ],
-    Advanced: [
-      "advanced/setup",
-      // 'advanced/docker'
-      // 'advanced/localdev',
-    ],
-    // Docusaurus: ['doc1', 'doc2', 'doc3'],
-    // Features: ['mdx'],
-  },
+const sidebars = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Inform',
+      link: {type: 'doc', id: 'inform/index'},
+      items: [
+        "inform/introduction",
+        "inform/tools",
+        "inform/processes"
+      ],
+    },
+    {
+      "Data Portal": [
+        "dataportal/quickstart",
+        "dataportal/faq",
+        "dataportal/goodpractices",
+        {
+          type: "category",
+          label: "Administration",
+          items: [
+            "dataportal/accountsetup",
+            "dataportal/sitemanagers",
+            "dataportal/adminmenu",
+            "dataportal/managingusers",
+          ],
+        },
+      ],
+    },
+    {
+      "Indicator Reporting Tool": [
+        "irt/intro",
+        "irt/define_indicators",
+        "irt/obligations",
+        "irt/update_indicators",
+        "irt/reports",
+      ],
+    },
+    {
+      "Advanced": [
+        "advanced/setup",
+        // 'advanced/docker'
+        // 'advanced/localdev',
+      ],
+    }        
+  ],
 };
+
+module.exports = sidebars;
