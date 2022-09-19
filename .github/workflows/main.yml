@@ -3,16 +3,19 @@
 name: Build and deploy wodby app
 
 on:
-  push:
-    branches:
-    - 'master'
+  # push:
+  #   branches:
+  #   - 'master'
 
   pull_request:
+    types:
+      - closed
 
 
 jobs:
   build-and-deploy:
     environment: production
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
 
     env:
