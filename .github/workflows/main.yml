@@ -1,37 +1,60 @@
-# This is a basic workflow to help you get started with Actions
+# can test this config file locally using 'act' command and local .env file 
+# act --env-file .env
+name: Build and deploy wodby app
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "github-actions" ]
+    branches:
+    - 'master'
+
   pull_request:
-    branches: [ "github-actions" ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-2004:202111-01
+  build-and-deploy:
+    environment: production
+    runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    env:
+      WODBY_INSTANCE_UUID: ${{ secrets.WODBY_INSTANCE_UUID }}
+      WODBY_API_KEY: ${{ secrets.WODBY_API_KEY }}
+
     steps:
-      - checkout
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+    
+    - name: Cache node modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: yarn-v1-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: yarn-v1-
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+    - name: Get Wodby CLI
+      run: wget -qO- https://api.wodby.com/api/v1/get/cli | sh
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    - name: Initialize build config for app instance
+      run: wodby ci init $WODBY_INSTANCE_UUID
+
+    - name: Fix .cache permissions
+      run: wodby ci run -v $HOME/.cache:/home/node/.cache --user root -- chown -R 1000:1000 /home/node/.cache
+
+    - name: Install node modules
+      run: wodby ci run -v $HOME/.cache:/home/node/.cache -i wodby/node -- yarn install
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache
+        key: yarn-v1-${{ hashFiles('**/yarn.lock') }}
+
+    - name: Build site
+      run: wodby ci run -i wodby/node -- yarn run build
+
+    - name: Build images
+      run: wodby ci build --from ./
+
+    - name: Release images
+      run: wodby ci release
+
+    - name: Deploy app instance
+      run: wodby ci deploy
