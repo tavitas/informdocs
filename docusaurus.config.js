@@ -27,7 +27,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://pacific-data.sprep.org/search/type/dataset",
+          href: "https://pacific-data.sprep.org/search",
           label: "Datasets",
           position: "right",
         },
