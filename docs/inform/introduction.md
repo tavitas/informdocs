@@ -23,6 +23,9 @@ Over a four-year period from 2017–2021, Inform will work in the Cook Islands, 
 | Paul Anderson   |                 Inform Project Manager                  | paula@sprep.org    | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/paula.jpg')} />    |
 | Peter McDonald  |    Environmental Monitoring and Reporting Specialist    | petermc@sprep.org  | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/petermc.jpg')} />  |
 | Julie Callebaut |  Environmental Monitoring and Reporting GIS Specialist  | juliec@sprep.org   | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/juliec.jpg')} />   |
+| Vani Koroisamanunu |  Environmental GIS Specialist  | juliec@sprep.org   | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/vanik.jpg')} />   |
 | Tavita Su'a     | Environmental Information Systems Developer and Analyst | tavitas@sprep.org  | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/tavitas.jpg')} />  |
 | Lagi Reupena    |        Inform Project Environmental Data Officer        | lagir@sprep.org    | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/lagir.jpg')} />    |
-| Sabrina Reupena |    Inform Project Finance and Administration Officer    | sabrinar@sprep.org | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/sabrinar.jpg')} /> |
+| Jonathan Porter |    Inform Project Finance and Administration Officer (Current)   | jonathanp@sprep.org | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/jonathanp.jpg')} /> |
+| Sabrina Reupena |    Inform Project Finance and Administration Officer   | sabrinar@sprep.org | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/sabrinar.jpg')} /> |
+| Sela Soakai-Simamao |    Inform Project Finance and Administration Officer   | selas@sprep.org | <img alt="Docusaurus with Keytar" src={useBaseUrl('img/inform/selas.jpg')} /> |
