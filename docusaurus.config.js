@@ -28,14 +28,15 @@ module.exports = {
         },
         {
           href: "https://pacific-data.sprep.org/search",
-          label: "Datasets",
           position: "right",
+          label: "Datasets",
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: "https://github.com/tavitas/informdocs",
-          label: "GitHub",
           position: "right",
+          className: 'header-github-link',
+          'aria-label': "GitHub repository",
         },
       ],
     },
