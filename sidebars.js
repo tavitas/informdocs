@@ -18,7 +18,10 @@ const sidebars = {
       ],
     },
     {
-      "Data Portal": [
+      type: 'category',
+      label: 'Data Portal',
+      link: {type: 'doc', id: 'dataportal/index'},
+      items: [
         "dataportal/quickstart",
         "dataportal/faq",
         "dataportal/goodpractices",
