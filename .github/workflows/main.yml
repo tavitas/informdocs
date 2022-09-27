@@ -54,7 +54,7 @@ jobs:
       run: wodby ci run -i wodby/node -- yarn run build
 
     - name: Build images
-      run: wodby ci build --from ./
+      run: wodby ci build --from ./build
 
     - name: Release images
       run: wodby ci release
